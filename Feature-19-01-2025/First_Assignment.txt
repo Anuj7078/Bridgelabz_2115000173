@@ -1,0 +1,114 @@
+class PracticeProblem1{
+    public static void main(String[]args){
+        System.out.print("Welcome to BreidgeLabz!");
+    }
+}
+
+
+import java.util.*;
+class PracticeProblem2{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println(a+b);
+}
+}
+
+
+import java.util.*;
+class PracticeProblem3{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Temperature in Celcius:");
+        int tempearture = sc.nextInt();
+        System.out.println("Temperature in         Fahrenheit:"+(tempearture*9/5)+32);
+    }
+}
+
+
+
+import java.util.*;
+class PracticeProblem4{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Radius to Calculate Area:");
+        int radius = sc.nextInt();
+        System.out.println("Area of Circle:"+3.14*radius*radius);
+    }
+}
+
+import java.util.*;
+class PracticeProblem5{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Radius of Cylinder:");
+        int radius = sc.nextInt();
+        System.out.print("Enter Height of Cylinder:");
+        int height = sc.nextInt();
+        System.out.println("Volume of Cylinder:"+3.14*radius*radius*height);
+    }
+}
+
+
+import java.util.*;
+class PracticeProblem6{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Principle Amt:");
+        int amt = sc.nextInt();
+        System.out.print("Enter Interest Rate:");
+        int rate = sc.nextInt();
+        System.out.print("Enter Time Period:");
+        int time = sc.nextInt();
+        System.out.println("Simple Interes:"+(amt*rate*time)/100);
+    }
+}
+
+
+import java.util.*;
+class PracticeProblem7{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter length of Rectangle:");
+        int len = sc.nextInt();
+        System.out.print("Enter width of Rectangle:");
+        int wid = sc.nextInt();
+        System.out.println("Temperature in Fahrenheit:"+(len+wid)*2);
+    }
+}
+import java.util.*;
+class PracticeProblem8{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Base:");
+        int base = sc.nextInt();
+        System.out.print("Enter exponent:");
+        int expo = sc.nextInt();
+        System.out.println("Power of "+base+" is "+Math.pow(base,expo));
+    }
+}
+
+import java.util.*;
+class PracticeProblem9{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter 1st Number:");
+        int num1 = sc.nextInt();
+        System.out.print("Enter 2nd Number:");
+        int num2 = sc.nextInt();
+        System.out.print("Enter 3rd Number:");
+        int num3 = sc.nextInt();
+        System.out.println("Average of Given Number is: "+(num1+num2+num3)/3);
+    }
+}
+
+import java.util.*;
+class PracticeProblem10{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter distance in Kilometer:");
+        int km = sc.nextInt();
+        System.out.println("Distance in Miles:"+km*0.621371);
+    }
+}
