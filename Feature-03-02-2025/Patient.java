@@ -60,7 +60,9 @@ public class Patient {
         for (Patient patient : patients) {
             if (patient.getPatientId() == searchId) {
                 System.out.println("Patient Details:");
-                patient.displayDetails();
+                if(patient instanceof Patient){
+                    patient.displayDetails();
+                }
                 flag = true;
                 break;
             }

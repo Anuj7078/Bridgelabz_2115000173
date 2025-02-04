@@ -57,12 +57,13 @@ public class BankAccount {
         for (BankAccount account : accounts) {
             if (account.getAccountNumber() == searchId) {
                 System.out.println("Account Details:");
-                account.displayDetails();
+                if(account instanceof BankAccount) {
+                    account.displayDetails();
+                }
                 found = true;
                 break;
             }
         }
-
         if (!found) {
             System.out.println("Account with Number " + searchId + " not found.");
         }

@@ -56,7 +56,9 @@ public class Employee {
         for (Employee emp : employees) {
             if (emp.getId() == searchId) {
                 System.out.println("Employee Details:");
-                emp.display();
+                if(emp instanceof Employee) {
+                    emp.display();
+                }
                 found = true;
                 break;
             }
